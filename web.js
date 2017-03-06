@@ -12,7 +12,7 @@ var server = http.createServer(function(req, res){
   res.end('Hello World\n');
 
 });
-server.listen(port, hostname function(){
-      console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(8002, 'cout' function(){
+      console.log('hello');
 
 });
