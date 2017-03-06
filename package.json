@@ -1,8 +1,16 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "dependencies": {
-        "socket.io": "latest"
-      , "express": ">= 2.5.9"
-  }
+  "name": "node",
+  "version": "1.0.0",
+  "description": "server javascript",
+  "main": "web.js",
+  "dependencies": {
+    "express": "^4.15.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
