@@ -7,6 +7,3 @@ http.createServer(function (req, res) {
     res.end('Hello World\n');
 }).listen(8002);
 console.log('Server running at Cafe24');
-app.get('/test', function(req, res){
-    res.send("test");
-};
